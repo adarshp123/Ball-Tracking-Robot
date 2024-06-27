@@ -2,14 +2,42 @@
 
 This project builds a robot that tracks a yellow ball using a camera. Let's delve into its components, functionality, and step-by-step creation process.
 
-**Components:**
 
-* **Jetson Nano:** A powerful AI device for image processing and decision making.
-* **Arduino:** A microcontroller that controls motors and sensors based on commands from the Jetson.
-* **Camera:** captures real-time video (USB or CSI connection).
-* **Motors:** DC motors with drivers controlled by the Arduino for robot movement.
-* **Ultrasonic Sensor:** measures distance to the ball, stopping the robot when it gets too close.
-* **Power Supply:** Provides power for the Jetson Nano, Arduino, and motors.
+
+**Hardware:**
+
+* **Computation and Processing:**
+    * Jetson Nano
+    * MicroSD card (at least 16GB, recommended 32GB or higher for extended recording)
+    * Power supply for Jetson Nano (refer to official specifications for voltage and amperage requirements)
+* **Microcontroller:**
+    * Arduino Uno or compatible board (e.g., Nano, Mega)
+    * USB cable for programming the Arduino
+* **Motor Driver:**
+    * L298N motor driver module
+* **Motors:**
+    * Two DC motors (voltage and RPM dependant on your robot's design and desired speed)
+* **Camera:**
+    * USB camera or CSI camera module compatible with Jetson Nano
+* **Sensors:**
+    * Ultrasonic sensor (e.g., HC-SR04)
+* **Power Supply:**
+    *  **New:**  A portable power bank (with sufficient capacity) to provide power in the field for the Jetson Nano, Arduino, and motors (consider voltage and current requirements of each component) 
+* **Additional Components:**
+    * Jumper wires for connecting components
+    * Breadboard (optional, for prototyping)
+    * Chassis or frame to build the robot
+    * Wheels appropriate for the robot's size and weight
+    * Screws, nuts, and mounting hardware (depending on your chassis design)
+    * **New:**  Camera mount (depending on the camera chosen)
+    * **New:**  Zip ties or fasteners for securing wires
+
+**Software:**
+
+* Jetson Nano Operating System (e.g., NVIDIA JetPack)
+* Arduino IDE (Integrated Development Environment) for programming the Arduino
+* OpenCV library (for computer vision on Jetson Nano)
+
 
 **Functionality:**
 
