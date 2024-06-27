@@ -1,4 +1,4 @@
-## Ball Tracking Robot with Jetson Nano and Arduino (Markdown)
+## Ball Tracking Robot with Jetson Nano and Arduino 
 
 This project builds a robot that tracks a yellow ball using a camera. Let's delve into its components, functionality, and step-by-step creation process.
 
