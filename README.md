@@ -1,4 +1,5 @@
 Overview
+
 This project involves creating a ball-tracking robot that uses a camera to detect and follow a yellow ball. The system is powered by a Jetson Nano, which processes the video feed and sends control signals to an Arduino that manages the motor movements. An ultrasonic sensor is integrated to stop the robot when it gets too close to the ball.
 
 Components
